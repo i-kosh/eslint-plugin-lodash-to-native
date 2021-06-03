@@ -1,0 +1,3 @@
+exports.module._ = {
+  map: () => {},
+};

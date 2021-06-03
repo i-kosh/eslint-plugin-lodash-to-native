@@ -1,0 +1,6 @@
+{
+  "plugins": ["lodash-to-native"],
+  "rules": {
+    "lodash-to-native/map": 1
+  }
+}

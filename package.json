@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-lodash-to-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha \"tests/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-kosh/eslint-plugin-lodash-to-native.git"
+  },
+  "author": "Igor Koshelev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-kosh/eslint-plugin-lodash-to-native/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^7.27.0"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-eslint-plugin": "^3.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.0"
+  }
+}
