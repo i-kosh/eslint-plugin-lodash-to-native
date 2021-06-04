@@ -2,7 +2,7 @@
 /* eslint-disable no-new-object */
 /* eslint-disable no-unused-vars */
 
-let _ = require("lodash");
+let _ = require("./fakeLodash");
 
 const func = (val, index) => {
   // noop
