@@ -1,5 +1,5 @@
 module.exports = {
   rules: {
-    map: require("./rules/map"),
+    map: require("./lib/rules/map"),
   },
 };
