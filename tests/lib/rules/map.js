@@ -37,7 +37,7 @@ ruleTester.run("map", rule, {
   invalid: [
     {
       code: "_.map([], function() {})",
-      errors: ["Сдесь можно использовать нативный `Array.map`"],
+      errors: ["Здесь можно использовать нативный `Array.map`"],
       output: "[].map(function() {})",
     },
 
@@ -46,7 +46,7 @@ ruleTester.run("map", rule, {
         const arr = [];
         _.map(arr, function() {})
       `,
-      errors: ["Сдесь можно использовать нативный `Array.map`"],
+      errors: ["Здесь можно использовать нативный `Array.map`"],
       output: `
         const arr = [];
         arr.map(function() {})
@@ -58,7 +58,7 @@ ruleTester.run("map", rule, {
         const arr = new Array();
         _.map(arr, function() {})
       `,
-      errors: ["Сдесь можно использовать нативный `Array.map`"],
+      errors: ["Здесь можно использовать нативный `Array.map`"],
       output: `
         const arr = new Array();
         arr.map(function() {})
@@ -69,7 +69,7 @@ ruleTester.run("map", rule, {
       code: `
         _.map(new Array(), function() {})
       `,
-      errors: ["Сдесь можно использовать нативный `Array.map`"],
+      errors: ["Здесь можно использовать нативный `Array.map`"],
       output: `
         new Array().map(function() {})
       `,
@@ -80,7 +80,7 @@ ruleTester.run("map", rule, {
         const _ = require("lodash");
         const m = _.map([], fn);
       `,
-      errors: ["Сдесь можно использовать нативный `Array.map`"],
+      errors: ["Здесь можно использовать нативный `Array.map`"],
       output: `
         const _ = require("lodash");
         const m = [].map(fn);
